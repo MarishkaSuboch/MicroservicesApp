@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marina\\source\\repos\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "C:\\Users\\Marina\\Documents\\Course\\Microservices\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marina\\source\\repos\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "C:\\Users\\Marina\\Documents\\Course\\Microservices\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marina\\source\\repos\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "C:\\Users\\Marina\\Documents\\Course\\Microservices\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "C:\\Users\\Marina\\source\\repos\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectPath": "C:\\Users\\Marina\\Documents\\Course\\Microservices\\MicroservicesApp\\src\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "packagesPath": "C:\\Users\\Marina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marina\\source\\repos\\MicroservicesApp\\src\\Catalog\\Catalog.API\\obj\\",
+        "outputPath": "C:\\Users\\Marina\\Documents\\Course\\Microservices\\MicroservicesApp\\src\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +38,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
