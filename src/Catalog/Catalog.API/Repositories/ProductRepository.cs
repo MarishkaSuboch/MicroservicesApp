@@ -55,8 +55,8 @@ namespace Catalog.API.Repositories
                 .Products
                 .Find(filter)
                 .ToListAsync();
+            
         }
-
         public async Task<IEnumerable<Product>> GetProducts()
         {
             return await _context
